@@ -14,7 +14,7 @@
 <br>
       
 <div align="center">
-  <img src="https://imgur.com/hmD0KIs.png" width="200">
+  
 </div>
 
 <div align="center" width="100%">
