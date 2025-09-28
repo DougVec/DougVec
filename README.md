@@ -1,4 +1,4 @@
-## 👋 Olá, seja bem-vindo(a) ao meu perfil!
+##  Olá, seja bem-vindo(a) ao meu perfil!
 
 - Meu nome é Douglas Vecchi e sou um estudante de Análise e Desenvolvimento de Sistemas do Brasil 🇧🇷
 
