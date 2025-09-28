@@ -1,113 +1,45 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=9745f5"/>
+## 👋 Olá, seja bem-vindo(a) ao meu perfil!
 
-<br>
+- Meu nome é Douglas Vecchi e sou um estudante de Análise e Desenvolvimento de Sistemas do Brasil 🇧🇷
 
-<div align="center">
-  
-  <b>`Bem Vindo`</b>
-  <samp>
-      <br>
-      Olá, eu sou <b>DougVec</b>
-  </samp>
-      
-<br>
-<br>
-      
-<div align="center">
-  
+## Minhas Tecnologias
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="45" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ts" height="45" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=java" height="45" alt="java logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=python" height="45" alt="python logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postgres" height="45" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=git" height="45" alt="git logo"  />
 </div>
 
-<div align="center" width="100%">
-  <img src="https://readme-typing-svg.demolab.com?font=Iosevka&color=9745f5&width=900&size=22&center=true&lines=I+am+from+Brazil;I'm+a+student+of+Analysis+and+Systems+Development;Be+welcome!" alt="Typing SVG"/>
-</div>
-
-<br>
-<br>
-
-<details align="center">  
-  <summary>
-      <samp>
-        <b>More Info</b>
-      </samp>
-  </summary>
-  
+## Minhas Estatísticas
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=DougVec&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DougVec&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="150" alt="languages graph"  />
   <br>
-
-<div align="center">
-  <img
-    height=165
-    align="center"
-    alt="GitHub Stats"
-  />
-  <img
-    height=165
-    align="center"
-    alt="Top Language"
-  />
-  <br>
-  <br>
-  <img
-    align="center"
-    alt="Top Language"
-  />
-  <br>
-  <br>
-  <img
-    height=154
-    align="center"
-    alt="Top Language"
-  />
-  </div>
-
-<div align="center" style="display: inline_block"><br>
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CPP.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/JavaScript.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/HTML.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CSS.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Bootstrap.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/PostgreSQL-Dark.svg">
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Arduino.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Git.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Python-Dark.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Matlab-Dark.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Photoshop.svg" />
-  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Figma-Dark.svg" />
-  
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DougVec&theme=tokyo_night&hide_border=true" width="100%" alt="activity-graph graph"  />
 </div>
 
 <br>
 
-##
-
-<br>
-
-<div align="center">
-  <samp>
-    <b>
-      Contact me:
-    </b>
-  </samp>
-  <br>
-  <br>
-
-  [![Gmail](https://img.shields.io/badge/Gmail-000?style=for-the-badge&logo=gmail&logoColor=9745f5)](mailto:dougvecchi21@gmail.com)
-  [![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram&logoColor=9745f5)](https://www.instagram.com/douglas.vecchi)
-  [![Linkedin](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=9745f5)](https://www.linkedin.com/in/douglasvecchi/)
-  
+## Conecte-se Comigo
+<div align="left">
+  <a href="https://www.linkedin.com/in/douglasvecchi/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/douglas.vecchi" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="mailto:dougvecchi21@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
 </div>
-
-<div align="center">
-  <p align="center">
-  
-  </p>
-</div>
-
-<br>
-
-</details>
-
-<br>
-<br>
-
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=9745f5&height=100&section=footer"/>
