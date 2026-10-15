@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6dff7a" stop-opacity="0"/><stop offset="1" stop-color="#6dff7a" stop-opacity=".55"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .ring{fill:none;stroke:#1f5a2a;stroke-width:1.5}
+      .sweep{animation:spin 3s linear infinite;transform-origin:130px 100px}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .p{fill:#9dff8a;animation:ping 3s infinite;opacity:0}
+      @keyframes ping{0%{opacity:0}5%{opacity:1}60%{opacity:0}}
+      .txt{font:700 26px monospace;fill:#6dff7a;letter-spacing:3px}
+      .sub{font:15px monospace;fill:#3fae4c;letter-spacing:2px}
+      .dist{font:15px monospace;fill:#9dff8a;animation:bl 1s steps(1) infinite}
+      @keyframes bl{50%{opacity:.3}}
+    </style>
+  </defs>
+  <rect width="800" height="200" fill="#030806"/>
+  <g filter="url(#glow)">
+    <circle class="ring" cx="130" cy="100" r="85"/><circle class="ring" cx="130" cy="100" r="57"/><circle class="ring" cx="130" cy="100" r="29"/>
+    <path d="M45 100H215M130 15V185" class="ring"/>
+    <path class="sweep" d="M130 100 L215 100 A85 85 0 0 0 190 40 Z" fill="url(#sw)"/>
+    <!-- pings se aproximando do centro -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="40 -50; 8 -10; 40 -50" dur="12s" repeatCount="indefinite"/>
+      <circle class="p" cx="130" cy="100" r="5" style="animation-delay:.5s"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="-55 35; -12 6; -55 35" dur="9s" repeatCount="indefinite"/>
+      <circle class="p" cx="130" cy="100" r="4" style="animation-delay:1.7s"/>
+    </g>
+    <text x="280" y="80" class="txt">DOUGLAS VECCHI</text>
+    <text x="280" y="110" class="sub">DESENVOLVEDOR JAVA · AUTOMAÇÃO · IA</text>
+    <text x="280" y="145" class="dist">▲ MOVIMENTO DETECTADO — 12 m</text>
+  </g>
+</svg>
