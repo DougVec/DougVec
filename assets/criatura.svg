@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05080a"/><stop offset="1" stop-color="#0d1a12"/>
+    </linearGradient>
+    <radialGradient id="body" cx=".45" cy=".35" r=".7">
+      <stop offset="0" stop-color="#2a3a30"/><stop offset="1" stop-color="#070b09"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .t{fill:none;stroke:#1c2a22;stroke-width:5;stroke-linecap:round}
+      .w1{animation:w 2.4s ease-in-out infinite;transform-origin:0 0}
+      .w2{animation:w 2.4s ease-in-out -.8s infinite;transform-origin:0 0}
+      .w3{animation:w 2.4s ease-in-out -1.6s infinite;transform-origin:0 0}
+      @keyframes w{50%{transform:rotate(12deg)}}
+      .eye{fill:#7dff6a;animation:blink 5s infinite}
+      @keyframes blink{0%,92%,100%{opacity:1}95%{opacity:.1}}
+      .drip{fill:#7dff6a;animation:drip 3s ease-in infinite;opacity:0}
+      @keyframes drip{0%{transform:translateY(0);opacity:0}10%{opacity:.9}100%{transform:translateY(90px);opacity:0}}
+      .txt{font:700 26px monospace;fill:#7dff6a;letter-spacing:4px}
+      .sub{font:14px monospace;fill:#4f8f47;letter-spacing:3px}
+    </style>
+  </defs>
+  <rect width="800" height="200" fill="url(#bg)"/>
+  <text x="400" y="95" text-anchor="middle" class="txt" filter="url(#glow)">DOUGLAS VECCHI</text>
+  <text x="400" y="122" text-anchor="middle" class="sub">ESPÉCIME: DESENVOLVEDOR JAVA</text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-160 70; 960 70" dur="16s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="3s" repeatCount="indefinite"/>
+      <g transform="translate(-30 30)"><path class="t w1" d="M0 0 q-20 30 -10 60 q8 20 -6 34"/></g>
+      <g transform="translate(-10 36)"><path class="t w2" d="M0 0 q-12 34 4 58 q10 18 0 30"/></g>
+      <g transform="translate(12 36)"><path class="t w3" d="M0 0 q14 30 0 56 q-8 18 6 32"/></g>
+      <g transform="translate(32 30)"><path class="t w1" d="M0 0 q22 28 10 58 q-6 20 8 34"/></g>
+      <path d="M-48 20 q-6 -48 48 -56 q54 8 48 56 q-48 28 -96 0z" fill="url(#body)" stroke="#2f4a38" stroke-width="2"/>
+      <path d="M-30 -10 q30 -18 60 0 M-36 6 q36 -16 72 0" fill="none" stroke="#3a5a44" stroke-width="2"/>
+      <g filter="url(#glow)">
+        <circle class="eye" cx="-14" cy="12" r="4"/><circle class="eye" cx="0" cy="16" r="5"/><circle class="eye" cx="14" cy="12" r="4"/>
+      </g>
+      <circle class="drip" cx="0" cy="34" r="3"/>
+    </g>
+  </g>
+</svg>
