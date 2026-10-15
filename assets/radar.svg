@@ -28,8 +28,8 @@
       <animateTransform attributeName="transform" type="translate" values="-55 35; -12 6; -55 35" dur="9s" repeatCount="indefinite"/>
       <circle class="p" cx="130" cy="100" r="4" style="animation-delay:1.7s"/>
     </g>
-    <text x="280" y="80" class="txt">DOUGLAS VECCHI</text>
-    <text x="280" y="110" class="sub">DESENVOLVEDOR JAVA · AUTOMAÇÃO · IA</text>
+    <text x="280" y="80" class="txt">VARREDURA ATIVA</text>
+    <text x="280" y="110" class="sub">SETOR C · CONVÉS INFERIOR · DV-21</text>
     <text x="280" y="145" class="dist">▲ MOVIMENTO DETECTADO — 12 m</text>
   </g>
 </svg>
