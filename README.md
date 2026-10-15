@@ -4,8 +4,6 @@
 <img src="assets/terminal.svg" width="100%" />
 <img src="assets/radar.svg" width="100%" />
 
-# Douglas Vecchi
-
 **Desenvolvedor Java** · Análise e Desenvolvimento de Sistemas — PUC Minas
 
 Estagiário na Energisa Corretora, criando automações e agentes de IA com Copilot Studio e Power Automate.
