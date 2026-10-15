@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".35"/></pattern>
+    <radialGradient id="crt" cx=".5" cy=".5" r=".75"><stop offset="0" stop-color="#0c1f10"/><stop offset="1" stop-color="#020603"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text{font:18px monospace;fill:#6dff7a}
+      .l{clip-path:inset(0 100% 0 0);animation:type 1.4s steps(30) forwards}
+      .l2{animation-delay:1.6s}.l3{animation-delay:3.2s}.l4{animation-delay:4.8s}
+      @keyframes type{to{clip-path:inset(0 0 0 0)}}
+      .cur{animation:bl 1s steps(1) infinite}
+      @keyframes bl{50%{opacity:0}}
+      .flick{animation:fl 6s infinite}
+      @keyframes fl{0%,97%,100%{opacity:1}98%{opacity:.7}}
+      .dim{fill:#2f8f3a}
+    </style>
+  </defs>
+  <rect width="800" height="200" rx="14" fill="url(#crt)"/>
+  <g class="flick" filter="url(#glow)">
+    <text x="24" y="34" class="dim">INTERFACE 2037 // NAVE CARGUEIRA DV-21 // TERMINAL PRINCIPAL</text>
+    <text x="24" y="74" class="l">&gt; IDENTIFICAR TRIPULANTE ......... DOUGLAS VECCHI</text>
+    <text x="24" y="104" class="l l2">&gt; FUNÇÃO ......................... DESENVOLVEDOR JAVA</text>
+    <text x="24" y="134" class="l l3">&gt; MÓDULOS ........ AUTOMAÇÃO · IA · COPILOT STUDIO</text>
+    <text x="24" y="164" class="l l4">&gt; STATUS ......................... ONLINE<tspan class="cur"> █</tspan></text>
+  </g>
+  <rect width="800" height="200" rx="14" fill="url(#scan)"/>
+</svg>
