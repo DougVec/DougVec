@@ -1,4 +1,5 @@
 <div align="center">
+<img width="220" alt="alien" src="https://github.com/user-attachments/assets/cd09f3bd-8cd8-462b-8851-1b374a5ad98d" />
 
 <img src="assets/criatura.svg" width="100%" />
 <img src="assets/terminal.svg" width="100%" />
